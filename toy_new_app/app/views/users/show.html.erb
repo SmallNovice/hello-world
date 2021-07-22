@@ -1,0 +1,14 @@
+
+
+<p>
+	<strong>Name:</strong>
+	<%= @user.name %>
+</p>
+
+<p>
+	<strong>Email:</strong>
+	<%= @user.email %>
+</p>
+
+<%= link_to "back", root_path %> |
+<%= link_to "edit", edit_user_path(@user) %> 
